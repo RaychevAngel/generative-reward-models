@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "Original historical image exports, copied byte for byte",
+  "date_interpretation": "Recorded artifact dates, not established run-start or run-completion dates",
+  "evidence_scope": "Exploratory trajectories outside the frozen paper's matched-setting Gold Elo arena; exact reference checkpoints, source points and complete run configurations are not reconstructed; no digitization, new experiments or controlled replication",
+  "files": [
+    {
+      "path": "ultrainteract-ultrafeedback-proxy-reference.png",
+      "original_artifact_id": "F09ATDEU44E",
+      "artifact_date": "2025-08-17",
+      "sha256": "358bd987f2847fb037e21db28ae02921fa3f4871631e3f2922c13e6e894e337b",
+      "byte_count": 273171,
+      "x_axis": "Policy training steps",
+      "y_axis": "Win rate minus loss rate"
+    },
+    {
+      "path": "single-and-mixed-data-rewarders.png",
+      "original_artifact_id": "F09DGPU6D7G",
+      "artifact_date": "2025-09-03",
+      "sha256": "140ef90c9fc82e0e7f94c0487e3fd047108b5a830b58b3ad59e07d87d66d47c2",
+      "byte_count": 1181004,
+      "x_axis": "Proxy win rate minus loss rate",
+      "y_axis": "Reference ('Gold' in the original legend) win rate minus loss rate"
+    },
+    {
+      "path": "distilled-thinking-rewarder-capacity.png",
+      "original_artifact_id": "F09E3QFENAY",
+      "artifact_date": "2025-09-07",
+      "sha256": "fb6a13f7554196d1c23b39de95988940d6c2098f3e79b8f8df0f5dbc1049932a",
+      "byte_count": 803680,
+      "x_axis": "Proxy win rate minus loss rate",
+      "y_axis": "Reference ('Gold' in the original legend) win rate minus loss rate"
+    }
+  ]
+}

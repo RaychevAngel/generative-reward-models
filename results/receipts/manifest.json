@@ -1,0 +1,105 @@
+{
+  "receipt_date": "2026-10-21",
+  "status": "Existing retained results; no new generation, judging or bootstrap fitting",
+  "inputs": [
+    {
+      "name": "elo_bootstrap_gaps.csv",
+      "sha256": "b0fd33402c1b0acf879311d4e309a22412b6e866230a235a3b9dc1f0e2855f65"
+    },
+    {
+      "name": "independent_judge_results.jsonl",
+      "sha256": "cbf719bcd2a6b2b05614175f360b14fcf057c979dedbdf71d0823f0605446f17"
+    },
+    {
+      "name": "generation_diagnostics_summary.csv",
+      "sha256": "51844a70afb1b87aaf3ae27c6cb32ccc0ad5225d69f09b3bb243dc1c8ca36f82"
+    },
+    {
+      "name": "bootstrap_elo_ci.py",
+      "sha256": "d175f4b69ee20be0a3dba5e84ae05ed3e3f472d657c32314d43939e3dea007c5"
+    },
+    {
+      "name": "run_tinker_independent_judge.py",
+      "sha256": "2bd4d796264ef852a16eb34fe70a19b71e060223b29bf7387f1ddf7e796b2a8c"
+    }
+  ],
+  "method_sources": [
+    {
+      "path": "docs/historical-source/bootstrap_elo_ci.py",
+      "source_name": "bootstrap_elo_ci.py",
+      "source_snapshot_commit": "26f20c809d1407d11358455f85096371ff3ce0a2",
+      "source_sha256": "d175f4b69ee20be0a3dba5e84ae05ed3e3f472d657c32314d43939e3dea007c5",
+      "release_sha256": "c4703476718483aa5e73feeea04a0b13af28c0f9f6786e8b5ab30cda91dd803e",
+      "status": "Inspectable source-only transport adaptation; no fit run and original match inputs not distributed",
+      "adaptation": "Explicit local winner/loser CSV replaces dataset-service loading; validation, lazy numerical imports, required new output directory and exclusive output creation added; report input description adapted",
+      "unchanged_source_sections_sha256": {
+        "parse_player": "5a982b1c6fe8c2bda1965f9107a817ed25bf4fd288045e616d3eb7f8bdb8eeca",
+        "fit_bt": "569cff6b8d5fe93a77ea51c1936a012939313ef69cb289324b5bbeb669491a4c",
+        "prefix_metrics": "bccebca02c6d29442646ff97082b2542327714888c61af2fe1a0f8be39448520",
+        "percentile": "4bfbeaff490641612fc040191e26f2b2eac67d885951bab55f751e9f0eae0d75",
+        "numerical_pipeline": "89bf832b06d165a459e33b01aad33ea18f502bf78bbc87d08df2cdf2e7e90f34",
+        "constants": "2afc242f868899c6fdf17c67067557b2a4869757ced5dc0ad335ec5ec535895d"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "elo_bootstrap_gaps.csv",
+      "sha256": "b0fd33402c1b0acf879311d4e309a22412b6e866230a235a3b9dc1f0e2855f65",
+      "rows": 16,
+      "columns": [
+        "policy",
+        "judge",
+        "metric",
+        "answer",
+        "thinking",
+        "gap_answer_minus_thinking",
+        "ci_low",
+        "ci_high",
+        "answer_win_bootstrap_fraction"
+      ]
+    },
+    {
+      "path": "independent_judge_receipt.csv",
+      "sha256": "a2e8431aa2c037124b2940b6353f5c3916c5f0ac3ab36b67ba8a35dd3c328a9e",
+      "rows": 80,
+      "columns": [
+        "row",
+        "config",
+        "answer_player",
+        "thinking_player",
+        "mode_presented_a",
+        "mode_presented_b",
+        "verdict",
+        "winning_mode",
+        "prompt_cluster_id"
+      ]
+    },
+    {
+      "path": "generation_diagnostics_aggregate.csv",
+      "sha256": "8dc24eb32df4fbd79c842d920d8beb7acca762bae5711c2c9a07e91cd6adccc6",
+      "rows": 4,
+      "columns": [
+        "config",
+        "mode",
+        "player",
+        "rows",
+        "mean_words",
+        "median_words",
+        "mean_nonempty_lines",
+        "mean_distinct_4gram_ratio",
+        "mean_duplicate_line_rate",
+        "markdown_bold_rate",
+        "top_first_line_share"
+      ]
+    }
+  ],
+  "derivation": {
+    "elo_bootstrap_gaps.csv": "Exact byte copy of the retained 16-row result",
+    "independent_judge_receipt.csv": "Allow-listed metadata/verdict fields in original row order; winning mode derived from A/B mapping; p001... IDs assigned by first occurrence of exact prompt equality; no prompt text or per-prompt hashes",
+    "generation_diagnostics_aggregate.csv": "Retained aggregate fields with the top_first_line text column omitted; no opener text"
+  },
+  "separate_audit_judge": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "privacy": "No prompts, stories, raw judgments, private source repositories, original row IDs or local source paths are exported",
+  "replay_boundary": "Public receipts reproduce counts, Wilson intervals, cluster overlap and reported CI signs; they cannot replay judging, recompute text diagnostics, or refit the match bootstrap without separately authorized original inputs"
+}

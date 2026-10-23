@@ -1,0 +1,17 @@
+{
+  "path": "docs/historical-source/bootstrap_elo_ci.py",
+  "source_name": "bootstrap_elo_ci.py",
+  "source_snapshot_commit": "26f20c809d1407d11358455f85096371ff3ce0a2",
+  "source_sha256": "d175f4b69ee20be0a3dba5e84ae05ed3e3f472d657c32314d43939e3dea007c5",
+  "release_sha256": "c4703476718483aa5e73feeea04a0b13af28c0f9f6786e8b5ab30cda91dd803e",
+  "status": "Inspectable source-only transport adaptation; no fit run and original match inputs not distributed",
+  "adaptation": "Explicit local winner/loser CSV replaces dataset-service loading; validation, lazy numerical imports, required new output directory and exclusive output creation added; report input description adapted",
+  "unchanged_source_sections_sha256": {
+    "parse_player": "5a982b1c6fe8c2bda1965f9107a817ed25bf4fd288045e616d3eb7f8bdb8eeca",
+    "fit_bt": "569cff6b8d5fe93a77ea51c1936a012939313ef69cb289324b5bbeb669491a4c",
+    "prefix_metrics": "bccebca02c6d29442646ff97082b2542327714888c61af2fe1a0f8be39448520",
+    "percentile": "4bfbeaff490641612fc040191e26f2b2eac67d885951bab55f751e9f0eae0d75",
+    "numerical_pipeline": "89bf832b06d165a459e33b01aad33ea18f502bf78bbc87d08df2cdf2e7e90f34",
+    "constants": "2afc242f868899c6fdf17c67067557b2a4869757ced5dc0ad335ec5ec535895d"
+  }
+}

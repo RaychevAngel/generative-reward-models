@@ -1,0 +1,171 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chiang et~al.(2024)Chiang, Zheng, et~al.]{chatbot-arena-2024}
+Wei-Lin Chiang, Lianmin Zheng, et~al.
+\newblock Chatbot arena: An open platform for evaluating llms by human preference.
+\newblock \emph{arXiv:2403.04132}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.04132}.
+
+\bibitem[Chung et~al.(2025)Chung, Padmakumar, Roemmele, Sun, and Kreminski]{chung2025diverse}
+John Joon~Young Chung, Vishakh Padmakumar, Melissa Roemmele, Yuqian Sun, and Max Kreminski.
+\newblock Modifying large language model post-training for diverse creative writing.
+\newblock \emph{arXiv preprint arXiv:2503.17126}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.17126}.
+
+\bibitem[Fein et~al.(2025)Fein, Russo, Xiang, Jolly, Rafailov, and Haber]{fein2025litbench}
+Daniel Fein, Sebastian Russo, Violet Xiang, Kabir Jolly, Rafael Rafailov, and Nick Haber.
+\newblock Litbench: A benchmark and dataset for reliable evaluation of creative writing.
+\newblock \emph{arXiv preprint arXiv:2507.00769}, 2025.
+\newblock \doi{10.48550/arXiv.2507.00769}.
+\newblock URL \url{https://arxiv.org/abs/2507.00769}.
+
+\bibitem[Frick et~al.(2024)Frick, Li, Chen, Chiang, Angelopoulos, Jiao, Zhu, Gonzalez, and Stoica]{frick2024evaluate}
+Evan Frick, Tianle Li, Connor Chen, Wei-Lin Chiang, Anastasios~N. Angelopoulos, Jiantao Jiao, Banghua Zhu, Joseph~E. Gonzalez, and Ion Stoica.
+\newblock How to evaluate reward models for rlhf, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.14872}.
+
+\bibitem[Gandhi et~al.(2025)Gandhi, Chakravarthy, Singh, Lile, and Goodman]{gandhi2025stars}
+Kanishk Gandhi, Ayush Chakravarthy, Anikait Singh, Nathan Lile, and Noah~D. Goodman.
+\newblock Cognitive behaviors that enable self-improving reasoners, or, four habits of highly effective {STaRs}.
+\newblock \emph{arXiv preprint arXiv:2503.01307}, 2025.
+\newblock \doi{10.48550/arXiv.2503.01307}.
+\newblock URL \url{https://arxiv.org/abs/2503.01307}.
+
+\bibitem[Gao et~al.(2022)Gao, Schulman, and Hilton]{gao2022scaling}
+Leo Gao, John Schulman, and Jacob Hilton.
+\newblock Scaling laws for reward model overoptimization.
+\newblock \emph{arXiv preprint arXiv:2210.10760}, 2022.
+\newblock \doi{10.48550/arXiv.2210.10760}.
+\newblock URL \url{https://arxiv.org/abs/2210.10760}.
+
+\bibitem[Guo et~al.(2024)Guo, Zhang, Liu, Liu, Khalman, Llinares, Rame, Mesnard, Zhao, Piot, Ferret, and Blondel]{guo2024direct}
+Shangmin Guo, Biao Zhang, Tianlin Liu, Tianqi Liu, Misha Khalman, Felipe Llinares, Alexandre Rame, Thomas Mesnard, Yao Zhao, Bilal Piot, Johan Ferret, and Mathieu Blondel.
+\newblock Direct language model alignment from online {AI} feedback.
+\newblock \emph{arXiv preprint arXiv:2402.04792}, 2024.
+\newblock \doi{10.48550/arXiv.2402.04792}.
+\newblock URL \url{https://arxiv.org/abs/2402.04792}.
+
+\bibitem[Kim et~al.(2025)Kim, Kang, Kwon, Chae, Lee, and Yeo]{kim2025rethinking}
+Sunghwan Kim, Dongjin Kang, Taeyoon Kwon, Hyungjoo Chae, Dongha Lee, and Jinyoung Yeo.
+\newblock Rethinking reward model evaluation through the lens of reward overoptimization.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 13252--13280, 2025.
+\newblock URL \url{https://aclanthology.org/2025.acl-long.649/}.
+
+\bibitem[Lambert et~al.(2024)Lambert, Pyatkin, Morrison, Miranda, Lin, Chandu, Dziri, Kumar, Zick, Choi, Smith, and Hajishirzi]{lambert2024rewardbench}
+Nathan Lambert, Valentina Pyatkin, Jacob Morrison, LJ~Miranda, Bill~Yuchen Lin, Khyathi Chandu, Nouha Dziri, Sachin Kumar, Tom Zick, Yejin Choi, Noah~A. Smith, and Hannaneh Hajishirzi.
+\newblock Rewardbench: Evaluating reward models for language modeling.
+\newblock \emph{arXiv preprint arXiv:2403.13787}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.13787}.
+
+\bibitem[Liang et~al.(2025)Liang, Zhang, Li, Chen, Zhu, and Zhang]{liang2025syncpl}
+Xiaobo Liang, Haoke Zhang, Juntao Li, Kehai Chen, Qiaoming Zhu, and Min Zhang.
+\newblock Generative reward modeling via synthetic criteria preference learning.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 26755--26769, Vienna, Austria, July 2025. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2025.acl-long.1297}.
+\newblock URL \url{https://aclanthology.org/2025.acl-long.1297/}.
+
+\bibitem[Liu et~al.(2025)Liu, Wang, Xu, Ma, Ruan, Li, Liu, and Wu]{liu2025inferencegrm}
+Zijun Liu, Peiyi Wang, Runxin Xu, Shirong Ma, Chong Ruan, Peng Li, Yang Liu, and Yu~Wu.
+\newblock Inference-time scaling for generalist reward modeling.
+\newblock \emph{arXiv preprint arXiv:2504.02495}, 2025.
+\newblock \doi{10.48550/arXiv.2504.02495}.
+\newblock URL \url{https://arxiv.org/abs/2504.02495}.
+
+\bibitem[Mahan et~al.(2024)Mahan, Phung, Rafailov, Blagden, Lile, Castricato, Fr{\"a}nken, Finn, and Albalak]{mahan2024generative}
+Dakota Mahan, Duy~Van Phung, Rafael Rafailov, Chase Blagden, Nathan Lile, Louis Castricato, Jan-Philipp Fr{\"a}nken, Chelsea Finn, and Alon Albalak.
+\newblock Generative reward models.
+\newblock \emph{arXiv preprint arXiv:2410.12832}, 2024.
+\newblock \doi{10.48550/arXiv.2410.12832}.
+\newblock URL \url{https://arxiv.org/abs/2410.12832}.
+
+\bibitem[Ouyang et~al.(2022)]{ouyang2022training}
+Long Ouyang et~al.
+\newblock Training language models to follow instructions with human feedback.
+\newblock \emph{arXiv preprint arXiv:2203.02155}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2203.02155}.
+
+\bibitem[Rafailov et~al.(2023)Rafailov, Sharma, Mitchell, Ermon, Manning, and Finn]{rafailov2023dpo}
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher~D. Manning, and Chelsea Finn.
+\newblock Direct preference optimization: Your language model is secretly a reward model.
+\newblock \emph{arXiv preprint arXiv:2305.18290}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.18290}.
+
+\bibitem[Rafailov et~al.(2024)Rafailov, Chittepu, Park, Sikchi, Hejna, Knox, Finn, and Niekum]{rafailov2024rewardoveropt}
+Rafael Rafailov, Yaswanth Chittepu, Ryan Park, Harshit Sikchi, Joey Hejna, W.~Bradley Knox, Chelsea Finn, and Scott Niekum.
+\newblock Scaling laws for reward model overoptimization in direct alignment algorithms.
+\newblock \emph{arXiv preprint arXiv:2406.02900}, 2024.
+\newblock \doi{10.48550/arXiv.2406.02900}.
+\newblock URL \url{https://arxiv.org/abs/2406.02900}.
+\newblock NeurIPS 2024.
+
+\bibitem[Saha et~al.(2025)Saha, Li, Ghazvininejad, Weston, and Wang]{saha2025evalplanner}
+Swarnadeep Saha, Xian Li, Marjan Ghazvininejad, Jason Weston, and Tianlu Wang.
+\newblock Learning to plan \& reason for evaluation with thinking-llm-as-a-judge.
+\newblock \emph{arXiv preprint arXiv:2501.18099}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.18099}.
+\newblock Introduces FollowBenchEval.
+
+\bibitem[Shi and Jin(2025)]{shi2025heimdall}
+Wenlei Shi and Xing Jin.
+\newblock Heimdall: Test-time scaling on the generative verification.
+\newblock \emph{arXiv preprint arXiv:2504.10337}, 2025.
+\newblock \doi{10.48550/arXiv.2504.10337}.
+\newblock URL \url{https://arxiv.org/abs/2504.10337}.
+
+\bibitem[Wang et~al.(2026{\natexlab{a}})Wang, Liu, Liu, Tang, Wang, Gao, Zheng, Zhang, Yu, Liu, Gui, Zhang, Huang, Yu, Huang, and Lin]{wang2026rationale}
+Binghai Wang, Yantao Liu, Yuxuan Liu, Tianyi Tang, Shenzhi Wang, Chang Gao, Chujie Zheng, Yichang Zhang, Le~Yu, Shixuan Liu, Tao Gui, Qi~Zhang, Xuanjing Huang, Bowen Yu, Fei Huang, and Junyang Lin.
+\newblock Outcome accuracy is not enough: Aligning the reasoning process of reward models.
+\newblock \emph{arXiv preprint arXiv:2602.04649}, 2026{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2602.04649}.
+
+\bibitem[Wang et~al.(2026{\natexlab{b}})Wang, Zhu, Huo, Li, He, Ding, Hao, Gao, Zhou, Chang, Liu, Zhu, Yu, and Xiao]{wang2026rrc}
+Chenglong Wang, Ziming Zhu, Yifu Huo, Bei Li, Qiaozhi He, Yan Ding, Xiaoyang Hao, Yuxin Gao, Tianhua Zhou, Xiaojia Chang, Tongran Liu, Jingbo Zhu, Zhengtao Yu, and Tong Xiao.
+\newblock {RRC}: Unlocking generative reward models in {LLM} reinforcement learning via ranking-based reward construction.
+\newblock \emph{arXiv preprint arXiv:2608.06310}, 2026{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2608.06310}.
+
+\bibitem[Wang et~al.(2025)Wang, Zeng, Delalleau, Shin, Soares, Bukharin, Evans, Dong, and Kuchaiev]{wang2025helpsteer3}
+Zhilin Wang, Jiaqi Zeng, Olivier Delalleau, Hoo-Chang Shin, Felipe Soares, Alexander Bukharin, Ellie Evans, Yi~Dong, and Oleksii Kuchaiev.
+\newblock Helpsteer3-preference: Open human-annotated preference data across diverse tasks and languages.
+\newblock \emph{arXiv preprint arXiv:2505.11475}, 2025.
+\newblock \doi{10.48550/arXiv.2505.11475}.
+\newblock URL \url{https://arxiv.org/abs/2505.11475}.
+
+\bibitem[Wen et~al.(2025)Wen, Lou, Lu, Lin, Yu, Lu, He, Han, Zhang, and Sun]{wen2025rethinking}
+Xueru Wen, Jie Lou, Yaojie Lu, Hongyu Lin, Xing Yu, Xinyu Lu, Ben He, Xianpei Han, Debing Zhang, and Le~Sun.
+\newblock Rethinking reward model evaluation: Are we barking up the wrong tree?
+\newblock In \emph{The Thirteenth International Conference on Learning Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=Cnwz9jONi5}.
+
+\bibitem[Whitehouse et~al.(2025)Whitehouse, Wang, Yu, Li, Weston, Kulikov, and Saha]{whitehouse2025j1}
+Chenxi Whitehouse, Tianlu Wang, Ping Yu, Xian Li, Jason Weston, Ilia Kulikov, and Swarnadeep Saha.
+\newblock J1: Incentivizing thinking in llm-as-a-judge via reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:2505.10320}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.10320}.
+
+\bibitem[Ye et~al.(2024)Ye, Wang, Huang, Chen, Zhang, Moniz, Gao, Geyer, Huang, Chen, Chawla, and Zhang]{ye2024llmasjudge}
+Jiayi Ye, Yanbo Wang, Yue Huang, Dongping Chen, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Chao Huang, Pin-Yu Chen, Nitesh~V. Chawla, and Xiangliang Zhang.
+\newblock Justice or prejudice? quantifying biases in llm-as-a-judge.
+\newblock \emph{arXiv preprint arXiv:2410.02736}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.02736}.
+
+\bibitem[Yu et~al.(2025)Yu, Chen, Zhang, Tan, Zhu, Pang, Qian, Wang, Gururangan, Zhang, Kambadur, Mahajan, and Hou]{yu2025criticrm}
+Yue Yu, Zhengxing Chen, Aston Zhang, Liang Tan, Chenguang Zhu, Richard~Yuanzhe Pang, Yundi Qian, Xuewei Wang, Suchin Gururangan, Chao Zhang, Melanie Kambadur, Dhruv Mahajan, and Rui Hou.
+\newblock Self-generated critiques boost reward modeling for language models.
+\newblock \emph{arXiv preprint arXiv:2411.16646}, 2025.
+\newblock \doi{10.48550/arXiv.2411.16646}.
+\newblock URL \url{https://arxiv.org/abs/2411.16646}.
+
+\bibitem[Zhang et~al.(2025)Zhang, Hosseini, Bansal, Kazemi, Kumar, and Agarwal]{zhang2024genverifier}
+Lunjun Zhang, Arian Hosseini, Hritik Bansal, Mehran Kazemi, Aviral Kumar, and Rishabh Agarwal.
+\newblock Generative verifiers: Reward modeling as next-token prediction.
+\newblock In \emph{ICLR}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2408.15240}.
+\newblock ICLR 2025.
+
+\end{thebibliography}

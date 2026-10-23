@@ -1,0 +1,12 @@
+Scaling Laws for Generative Reward Models — research artifacts
+Research by Angel Raychev, Nathan Lile and Rafael Rafailov.
+
+The public package contains analysis code and numerical research artifacts.
+The separate training implementation was developed in a SynthLabsAI fork of
+verl; it is not included in this package. Any retained upstream copyright
+headers on individual analysis files remain applicable.
+
+The curated release does not transfer rights in third-party datasets or model
+weights. The manuscript and research figures are attributed to their authors;
+the code license does not independently relicense the scholarly text or any
+third-party material. See docs/release-scope.md.

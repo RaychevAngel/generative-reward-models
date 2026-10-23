@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying research manuscript when using this research or its analysis artifacts."
+type: software
+title: "Scaling Laws for Generative Reward Models: Research Artifacts"
+version: "2026.10.23-analysis"
+date-released: 2026-10-23
+authors:
+  - family-names: Raychev
+    given-names: Angel
+  - family-names: Lile
+    given-names: Nathan
+  - family-names: Rafailov
+    given-names: Rafael
+repository-code: "https://github.com/RaychevAngel/generative-reward-models"
+url: "https://angelraychev.com/scaling-laws-for-generative-reward-models/"
+preferred-citation:
+  type: article
+  title: "Scaling Laws for Generative Reward Models"
+  authors:
+    - family-names: Raychev
+      given-names: Angel
+    - family-names: Lile
+      given-names: Nathan
+    - family-names: Rafailov
+      given-names: Rafael
+  year: 2026
+  doi: "10.48550/arXiv.2610.30765"
+  url: "https://arxiv.org/abs/2610.30765"

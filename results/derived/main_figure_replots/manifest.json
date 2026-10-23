@@ -1,0 +1,900 @@
+{
+  "method": "retained exports; replotter adds no smoothing, fitting, interpolation, inferred coordinates or model calls",
+  "proxy_gold_join": "exact player ID and exact trajectory-prefix equality; chronological order from final integer token",
+  "arenas": "Each figure uses its own family's gold.csv. Own-proxy CSVs are separate evaluator fits, not a common calibrated scale.",
+  "line_semantics": "Lines connect retained export coordinates in policy-training order, including x-axis reversals. Square is first; circle is last.",
+  "plotted_point_export": {
+    "path": "repro_artifacts/main_figure_replots/plotted_points.csv",
+    "rows": 2191,
+    "sha256": "dbd81b36f3fbcd21657806e7dc6e4827cd9f485e80aff59ea950c295a41357c4"
+  },
+  "diagonal": "Omitted: equal values across separately fitted rating arenas do not establish verdict agreement.",
+  "kl_join": "exact trajectory prefix plus unique evaluator rating, absolute tolerance 1e-7; no new coordinate inference",
+  "beta_kl_preprocessing": {
+    "status": "historically smoothed KL-axis export, not raw measurements",
+    "source_revision": "b13b2057c6c87ba754b1271513504bc985e034d8",
+    "source_file": "z_elo_calculation.py",
+    "source_lines": "381-406; active beta source 901-904",
+    "method": "Savitzky-Golay smoothing with window at most 51 and polynomial order 3 before rating/KL export",
+    "active_source": "steps_vs_kl_est.csv",
+    "negative_coordinates": "retained as exported; not evidence of negative true KL or finite-sample negativity of the trainer's nonnegative k3 expression"
+  },
+  "series": [
+    {
+      "family": "trained_vs_baseline",
+      "prefix": "ans_4b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "trained_vs_baseline",
+      "prefix": "think_4b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "trained_vs_baseline",
+      "prefix": "ans_off_4b_4b",
+      "proxy_file": "4b_off_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "trained_vs_baseline",
+      "prefix": "think_off_4b_4b",
+      "proxy_file": "4b_off_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_answer",
+      "prefix": "ans_4b_0.6b",
+      "proxy_file": "0.6b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_answer",
+      "prefix": "ans_4b_1.7b",
+      "proxy_file": "1.7b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_answer",
+      "prefix": "ans_4b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_answer",
+      "prefix": "ans_4b_8b",
+      "proxy_file": "8b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_answer",
+      "prefix": "ans_4b_14b",
+      "proxy_file": "14b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_answer",
+      "prefix": "ans_0.6b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_answer",
+      "prefix": "ans_1.7b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_answer",
+      "prefix": "ans_4b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_answer",
+      "prefix": "ans_8b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_thinking",
+      "prefix": "think_4b_0.6b",
+      "proxy_file": "0.6b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_thinking",
+      "prefix": "think_4b_1.7b",
+      "proxy_file": "1.7b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_thinking",
+      "prefix": "think_4b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_thinking",
+      "prefix": "think_4b_8b",
+      "proxy_file": "8b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "genrm_sizes_thinking",
+      "prefix": "think_4b_14b",
+      "proxy_file": "14b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_thinking",
+      "prefix": "think_0.6b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_thinking",
+      "prefix": "think_1.7b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_thinking",
+      "prefix": "think_4b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "policy_sizes_thinking",
+      "prefix": "think_8b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "beta_coefficients",
+      "prefix": "ans_0.1",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 27,
+      "first_step": 0,
+      "last_step": 260,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "beta_coefficients",
+      "prefix": "ans_0.02",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 27,
+      "first_step": 0,
+      "last_step": 260,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "beta_coefficients",
+      "prefix": "ans_0.01",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 27,
+      "first_step": 0,
+      "last_step": 260,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "beta_coefficients",
+      "prefix": "ans_0.005",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 27,
+      "first_step": 0,
+      "last_step": 260,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "beta_coefficients",
+      "prefix": "ans_0.002",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 27,
+      "first_step": 0,
+      "last_step": 260,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_0.6b_4b",
+      "prefix": "ans_0.6b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_0.6b_4b",
+      "prefix": "think_0.6b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_1.7b_4b",
+      "prefix": "ans_1.7b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_1.7b_4b",
+      "prefix": "think_1.7b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_4b",
+      "prefix": "ans_4b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_4b",
+      "prefix": "think_4b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_8b_4b",
+      "prefix": "ans_8b_4b",
+      "proxy_file": "4b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_8b_4b",
+      "prefix": "think_8b_4b",
+      "proxy_file": "4b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_0.6b",
+      "prefix": "ans_4b_0.6b",
+      "proxy_file": "0.6b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_0.6b",
+      "prefix": "think_4b_0.6b",
+      "proxy_file": "0.6b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 48,
+      "first_step": 0,
+      "last_step": 470,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_1.7b",
+      "prefix": "ans_4b_1.7b",
+      "proxy_file": "1.7b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_1.7b",
+      "prefix": "think_4b_1.7b",
+      "proxy_file": "1.7b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_8b",
+      "prefix": "ans_4b_8b",
+      "proxy_file": "8b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_8b",
+      "prefix": "think_4b_8b",
+      "proxy_file": "8b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_14b",
+      "prefix": "ans_4b_14b",
+      "proxy_file": "14b_answer.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    },
+    {
+      "family": "think_vs_ans_4b_14b",
+      "prefix": "think_4b_14b",
+      "proxy_file": "14b_thinking.csv",
+      "gold_file": "gold.csv",
+      "points": 47,
+      "first_step": 0,
+      "last_step": 460,
+      "join": "exact player ID",
+      "missing_gold_players": []
+    }
+  ],
+  "beta_kl_audit": [
+    {
+      "prefix": "ans_0.1",
+      "source": "gold",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 1
+    },
+    {
+      "prefix": "ans_0.02",
+      "source": "gold",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 1
+    },
+    {
+      "prefix": "ans_0.01",
+      "source": "gold",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 0
+    },
+    {
+      "prefix": "ans_0.005",
+      "source": "gold",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 1
+    },
+    {
+      "prefix": "ans_0.002",
+      "source": "gold",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 0
+    },
+    {
+      "prefix": "ans_0.1",
+      "source": "proxy",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 1
+    },
+    {
+      "prefix": "ans_0.02",
+      "source": "proxy",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 1
+    },
+    {
+      "prefix": "ans_0.01",
+      "source": "proxy",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 0
+    },
+    {
+      "prefix": "ans_0.005",
+      "source": "proxy",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 1
+    },
+    {
+      "prefix": "ans_0.002",
+      "source": "proxy",
+      "points": 26,
+      "omitted_rating_steps": [
+        260
+      ],
+      "negative_exported_coordinates": 0
+    }
+  ],
+  "inputs": [
+    {
+      "path": "paper/figures/results/beta_coefficients/4b_answer.csv",
+      "sha256": "aea276e7db8db16043d74e49b59a8d9aed12261cdc4a8174fe3c422f47d45218",
+      "rows": 135
+    },
+    {
+      "path": "paper/figures/results/beta_coefficients/gold.csv",
+      "sha256": "5332c7dce6b0f99ef4b6dd8e464cc07155436f744f0836bd4b4c680c805486c5",
+      "rows": 135
+    },
+    {
+      "path": "paper/figures/results/beta_coefficients/kl_betas.csv",
+      "sha256": "1b112827e9aac5c366c3da7d4e5e83b5c3412731b7036aef09cd065ead543d3b",
+      "rows": 260
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_answer/0.6b_answer.csv",
+      "sha256": "76043b98950b520a2e134795e4de53d0a638dffa6925ed1a21037ff8172a3540",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_answer/1.7b_answer.csv",
+      "sha256": "29ccb1ab66763fcda9644d1a6eb6ec16e4fc1487cc09d8edfa3dc6e4c190b4b5",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_answer/14b_answer.csv",
+      "sha256": "7eb7951fc4bb52034607f4ea872811cba9d12dc4640a9f289b08231984acb17b",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_answer/4b_answer.csv",
+      "sha256": "5ef7d25719a8552f22880e4855104099ff7af053abeee4ee608fd689b6a319dc",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_answer/8b_answer.csv",
+      "sha256": "e74083a3f58adeec96680c6ae40a9596e327cc700dab1484460e5ecaa280b450",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_answer/gold.csv",
+      "sha256": "44f58b10d871db68644f3d16a38993130de9b91f3fac055a949aa86cf09cc3d9",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_thinking/0.6b_thinking.csv",
+      "sha256": "e2bf782d912f070ec6451a41745f7775a88c3f28d7442d3a752d5809c557c2ac",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_thinking/1.7b_thinking.csv",
+      "sha256": "7771bc64d7547ff6e3f106f3fdec87aa55dddbfaf8df054b1311d5a4bcecdea6",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_thinking/14b_thinking.csv",
+      "sha256": "f3caffaca4effa2571a62b9cd455eeac1b408ef71632fe8c0b5d9422b2db613c",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_thinking/4b_thinking.csv",
+      "sha256": "ce1813f9cb17962ad5fc3c29109fb9745e760eefb8c7891ad150acd633d22e6f",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_thinking/8b_thinking.csv",
+      "sha256": "84ef60e121d1193b52ca3f90d648f3dd6e82fa932c2dec88c08da45eef238c6b",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/genrm_sizes_thinking/gold.csv",
+      "sha256": "52080011a8fd905faa7a779d50a5d022b1b6169d14d28abf315a10034e3ad8dd",
+      "rows": 236
+    },
+    {
+      "path": "paper/figures/results/policy_sizes_answer/4b_answer.csv",
+      "sha256": "f94c8f53532d8092d2ddbc671f8634ee6d1f120fc5c7cb63ba0ab2ce06c57aa2",
+      "rows": 189
+    },
+    {
+      "path": "paper/figures/results/policy_sizes_answer/gold.csv",
+      "sha256": "4173fee9517d28a39f64308fa9357cb82655190b46352bda0450eb707ed6bfe9",
+      "rows": 189
+    },
+    {
+      "path": "paper/figures/results/policy_sizes_thinking/4b_thinking.csv",
+      "sha256": "7262da401e0b6f2f9c4cbc6387fcbded6bc53a3883111d163941b1c246cd5de7",
+      "rows": 189
+    },
+    {
+      "path": "paper/figures/results/policy_sizes_thinking/gold.csv",
+      "sha256": "0a9172d443f52ab1ad0f3f94926f940a3a26f1c6235f764eb176bffb6d228832",
+      "rows": 189
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_0.6b_4b/4b_answer.csv",
+      "sha256": "15096e303eae85c12852e9a87571dfd0d9b04f28cac09c9073785457d3d338f9",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_0.6b_4b/4b_thinking.csv",
+      "sha256": "9dbd5dd9c6f67c2ca6e6f62be572ae24f741e232ebbfbe69dccbb6ae7bab0d9f",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_0.6b_4b/gold.csv",
+      "sha256": "bd4743bfbed66c39509d3353cd3f4d4048ab9010714c1177a22fdac4f28c0f7a",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_1.7b_4b/4b_answer.csv",
+      "sha256": "2f9da624a898d78c402a364a633357a754a4fba2470ff34f08f2ab31f654aa9b",
+      "rows": 96
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_1.7b_4b/4b_thinking.csv",
+      "sha256": "12f80c43654e4433fdfd6d9e1260d08aad003e5b72685d9d846d2365063784d6",
+      "rows": 96
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_1.7b_4b/gold.csv",
+      "sha256": "c4b0dccacc09f08e10e02df934f158ed2eebea1b28a0154b2c7b3b93870ed7a2",
+      "rows": 96
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_0.6b/0.6b_answer.csv",
+      "sha256": "97f5fb76444946049727c9c93fddcb19aa90fd4054f7eb0581a75778d52d6860",
+      "rows": 96
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_0.6b/0.6b_thinking.csv",
+      "sha256": "8103954f16643ae5f0a6e8c699ff1b469b731eb5ad5f525fb60f83668b5204ff",
+      "rows": 96
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_0.6b/gold.csv",
+      "sha256": "ae9da2a173771266619b6472ff3ee8727069ed394a9a438732de1062806e487f",
+      "rows": 96
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_1.7b/1.7b_answer.csv",
+      "sha256": "7b7591ae76c1696f482ebe3014e8c0bc1b7e29b2e9e95974ed3865ef9ec8ed23",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_1.7b/1.7b_thinking.csv",
+      "sha256": "0030deffd06414f90dc09f7ea9a45021a4a4b874186af29f524c9a50dbaf908f",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_1.7b/gold.csv",
+      "sha256": "6f51f20391abb4b8893618b774ad2b5035f8d5d6b2b1a13d71a786cc35702f56",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_14b/14b_answer.csv",
+      "sha256": "90720a5565b113bfd836b51b3340ef56a75b503e272fd2ed239181534ec0f935",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_14b/14b_thinking.csv",
+      "sha256": "2e2727479e6f404a60a2fcdde55f1683d0a9359aaf49ae3faf00a3db412ce1d8",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_14b/gold.csv",
+      "sha256": "fd54782ee2df9e4fec638af703ac5b824d7274f9ff5efacfc705d36be36404cc",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_4b/4b_answer.csv",
+      "sha256": "d1563cb232fa8afaf548889ea8d0453f195930013f6863ab6e9caf16f547a887",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_4b/4b_thinking.csv",
+      "sha256": "2a5f369e97d68819e5fd7edbd572967d22fc331768473a312ef5912d65458603",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_4b/gold.csv",
+      "sha256": "2d2ac224b505b6fd102cd2e34e9e3790cef5e6620d46656fac345b2cbad0f7bb",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_8b/8b_answer.csv",
+      "sha256": "c7bc6a8f1cb8d935072c385684f22d0362159a0c98c05826f4d1f25411d01949",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_8b/8b_thinking.csv",
+      "sha256": "539fc441364477eb58a4f7dfe65dde318f7ff99f76783a9f6e4f835131cc4b27",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_8b/gold.csv",
+      "sha256": "19ec32d57a70cd500a49949522a31eda493f39adf73ce651433d844257c5716d",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_8b_4b/4b_answer.csv",
+      "sha256": "4d417bc5e3d8a9b6e2f84edd9a8a0f6bfd4fc2e43a0066870e067845a1b0c7f7",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_8b_4b/4b_thinking.csv",
+      "sha256": "335813405e89aa53bd4c322fb72184757f0396534b3f56c0f4f9e344974e39ac",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_8b_4b/gold.csv",
+      "sha256": "37bcca96627d3bc48a456410d88cb69292c7aa8f5a934cc5e9e3e5cd8b5a42ab",
+      "rows": 94
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_answer.csv",
+      "sha256": "706ec1f3a2691b9797e75f2ff885f2053638e33f2ca0a0c10eb643cfa4473c3c",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_off_answer.csv",
+      "sha256": "9ef78060090d09184a4639025ff239961cc731ef3e1c9ae1b5838600e8525979",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_off_thinking.csv",
+      "sha256": "2eb2ade2d9550595c1270f17a3bc4d920c7d94b70d4e2a770cc425816df6b17c",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_thinking.csv",
+      "sha256": "7df40870a0ff2e1d0320978124dd066fe9fd0dd4ff17b23f7dd3965f2f510fec",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/gold.csv",
+      "sha256": "74f56c2a9e2b60891398d3e31e9186a374afe059f5b8175aebe36d2b93ba9d71",
+      "rows": 190
+    }
+  ],
+  "outputs": [
+    {
+      "path": "arxiv/figures/replotted/trained-vs-baseline.pdf",
+      "sha256": "9a2e62c0a0cdfcb93af78365150243bf651425913848beb6d41eb522e9dd7fc4"
+    },
+    {
+      "path": "arxiv/figures/replotted/judge-sizes-answer.pdf",
+      "sha256": "f0ef6e7823c49918287752a80c2b45bda797ed06e40d060a20730805f53f54e3"
+    },
+    {
+      "path": "arxiv/figures/replotted/policy-sizes-answer.pdf",
+      "sha256": "c4e301d18bfaa9a40d73e6ec92bc921d4c568e2a494e92481d8139633656997c"
+    },
+    {
+      "path": "arxiv/figures/replotted/judge-sizes-thinking.pdf",
+      "sha256": "427476152bfced43a71cec7faea32ac01aa200d372700707e6c40d7d116dec86"
+    },
+    {
+      "path": "arxiv/figures/replotted/policy-sizes-thinking.pdf",
+      "sha256": "25d89bd0b146d7cdd4f900d1a3881257a2690043b56a756c1e41ec205b1d396f"
+    },
+    {
+      "path": "arxiv/figures/replotted/beta-proxy-gold.pdf",
+      "sha256": "6d370f4bb0f1f616d2665b8e35b0c95d350f93d5e8118910bf7af185b1db2b51"
+    },
+    {
+      "path": "arxiv/figures/replotted/beta-kl.pdf",
+      "sha256": "e3b0fe5d6e343469cd1db9f2f5a5460318d867306e556a7baf619006626d92cc"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-0.6b-4b.pdf",
+      "sha256": "186d5bde683f6ba6c640cf151ceeb34235f51302ffd8291e05560f459d2e2f1b"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-1.7b-4b.pdf",
+      "sha256": "0e1bd308550e5489824796752f7cee25dabddf3b55bce142eb85ae2c88a6bffa"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-4b-4b.pdf",
+      "sha256": "36bc4508a90db940add20e5e070562bc8694d2e2da6dd766cca24393fc32b847"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-8b-4b.pdf",
+      "sha256": "eb8151b9977c07e18e3ced8e019211f7c1798007c00aa467d904701048af098a"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-4b-0.6b.pdf",
+      "sha256": "050e7ba12300859fd0cd84164fd1bf0c4a52ff25868449e641a43134c45feaf9"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-4b-1.7b.pdf",
+      "sha256": "91854710b20f2005aa971009275eed84df7c019b3f050fd3a42a00a83460f45f"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-4b-8b.pdf",
+      "sha256": "1d1dc56ad38859937f70a5cf70b102afce57f190349069a4181552c1aeb0d4e0"
+    },
+    {
+      "path": "arxiv/figures/replotted/matched-4b-14b.pdf",
+      "sha256": "80e238b738e8023d1d0a98f7acf69d9a0ebe40b2b2ee87df249cd4c59d32a9eb"
+    }
+  ],
+  "limitations": [
+    "Checkpoints are not independent training repetitions.",
+    "Proxy and Gold axes describe separately fitted arenas, not response-level agreement.",
+    "No uncertainty intervals are reconstructed from aggregate rating CSVs.",
+    "Beta KL-axis coordinates were historically smoothed; they are not raw measurements or reconstructed unsmoothed KL.",
+    "These plots retain local arenas and should not be substituted for global-arena numerical summaries."
+  ]
+}

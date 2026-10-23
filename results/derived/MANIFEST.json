@@ -1,0 +1,38 @@
+{
+  "generated_by": "make figures size-fits",
+  "status": "CPU reconstruction receipts; no new model outputs or training",
+  "files": [
+    {
+      "path": "results/derived/empirical_supplement/configuration_summaries.csv",
+      "sha256": "a76848bd584366c2700cd2c4b8bad98ce23b3d8d9feb57ff0433500217bf086e"
+    },
+    {
+      "path": "results/derived/empirical_supplement/exported_kl_joins.csv",
+      "sha256": "f165d8ed2ef28c029927f38fca801d16c967264454959fb9356ed321f260a86b"
+    },
+    {
+      "path": "results/derived/empirical_supplement/manifest.json",
+      "sha256": "63ee3c50288fa7658a8f1c43622dd6d5e86b49a8095286f384f6b3db924a33af"
+    },
+    {
+      "path": "results/derived/main_figure_replots/plotted_points.csv",
+      "sha256": "dbd81b36f3fbcd21657806e7dc6e4827cd9f485e80aff59ea950c295a41357c4"
+    },
+    {
+      "path": "results/derived/main_figure_replots/manifest.json",
+      "sha256": "906d3766dfa0845eaa28d83abc0a7dea5108554774ef71fa8b9bcd58dc99b192"
+    },
+    {
+      "path": "results/derived/size_scaling/global_configuration_summary.csv",
+      "sha256": "a66af9c676ede78f05dd49677355152446c3cfa737399fac215c4bba052b601a"
+    },
+    {
+      "path": "results/derived/size_scaling/global_log_scaling_fits.csv",
+      "sha256": "3956dc33f5f378e4e49988eaca1783a186e970d85ba38122161d971e6c788100"
+    },
+    {
+      "path": "results/derived/size_scaling/manifest.json",
+      "sha256": "7a72e913809bceddda4f75d1099f17036648117e6019193cc87c8d77f574209b"
+    }
+  ]
+}

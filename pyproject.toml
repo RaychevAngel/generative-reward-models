@@ -1,0 +1,9 @@
+[project]
+name = "generative-reward-models-artifacts"
+version = "2026.10.21"
+description = "CPU research-artifact reproduction for Scaling Laws for Generative Reward Models"
+requires-python = ">=3.10"
+dependencies = ["reportlab==4.4.9", "numpy>=2.2.6,<3"]
+
+[tool.uv]
+package = false

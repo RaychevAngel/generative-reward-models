@@ -1,0 +1,110 @@
+{
+  "release_date": "2026-10-21",
+  "manuscript": "Scaling Laws for Generative Reward Models",
+  "authors": [
+    "Angel Raychev",
+    "Nathan Lile",
+    "Rafael Rafailov"
+  ],
+  "canonical_project": "https://angelraychev.com/scaling-laws-for-generative-reward-models/",
+  "pdf_sha256": "43aabe39876750e05f155592eac00652b724c5692d9897537d11f5621a4cd446",
+  "source_archive_sha256": "753c72c376ca83844f07577ad5782d6ebe515b0ed679ca330612409035a83bde",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "5e518c2d13d4c9ecbae7ca135b9ff9c4ccf9346275e0aefefc11c5cf770ea512"
+    },
+    {
+      "path": "appendices/empirical.tex",
+      "sha256": "fa50879c4f1863352dc066eb78e89192de34427ad1a1ffa2e4a54e4db33e9128"
+    },
+    {
+      "path": "figures/intermediate_thinking_checkpoints/proxy_vs_gold.png",
+      "sha256": "610ee98f230f0e20018490a36ea6d4abd6a063caeb9eee5e48df6cd0e690107d"
+    },
+    {
+      "path": "figures/replotted/beta-kl.pdf",
+      "sha256": "213f84e62dc46350b6e3a379ab65a69b8ee37e4ba3a6d446ed930a8d06cb6772"
+    },
+    {
+      "path": "figures/replotted/beta-proxy-gold.pdf",
+      "sha256": "53e27427d7106b07c3f7c0942419f7e6cf5a7a704b5d1f07852c4dda6033170c"
+    },
+    {
+      "path": "figures/replotted/judge-sizes-answer.pdf",
+      "sha256": "e9cecdd39e397d182fc9f3456e4c22177a5e2f89455becccfbf583de3c1c7e34"
+    },
+    {
+      "path": "figures/replotted/judge-sizes-thinking.pdf",
+      "sha256": "979c8f59dfe6aebf20a70df6ce47640c13625bff86512a3e7dab6142a3b864cd"
+    },
+    {
+      "path": "figures/replotted/policy-sizes-answer.pdf",
+      "sha256": "3143507af485ce92e63a4b1b283576893c5cd57df9d71428b974b9bbf850a54a"
+    },
+    {
+      "path": "figures/replotted/policy-sizes-thinking.pdf",
+      "sha256": "692884c8181b2e8e5ec3aecacf60e79f6bb75c94b253fb392fd07f126c13ba89"
+    },
+    {
+      "path": "figures/replotted/trained-vs-baseline.pdf",
+      "sha256": "62be89fe7996573b388705e633fa8fcc560544c7b8ed990fe37e07b190a14d37"
+    },
+    {
+      "path": "figures/restored/baseline-trajectories.pdf",
+      "sha256": "093dc21d5251642c34e0a3c739f76dba2b72c96c0199b6396775546a56bc343a"
+    },
+    {
+      "path": "figures/restored/capacity-allocation.pdf",
+      "sha256": "666ef6e38378f051ff97bf9ed8751672f4b582b62d9c8a2a6b762f788b14fff5"
+    },
+    {
+      "path": "figures/restored/gold-trajectories-a.pdf",
+      "sha256": "4753c170a71738a4d545b095c2131df0d2caa0777415950c73c951b511b1bec5"
+    },
+    {
+      "path": "figures/restored/gold-trajectories-b.pdf",
+      "sha256": "93737a88eae14949c09b1c71531defe9f50212123c87294f4589ac5ed196a6e1"
+    },
+    {
+      "path": "figures/restored/kl-trajectories-a.pdf",
+      "sha256": "bd9885a6ca15b6f9daf093b2ff4e78e6e60553d016b1b63d98984c8eaac6b36b"
+    },
+    {
+      "path": "figures/restored/kl-trajectories-b.pdf",
+      "sha256": "f7e750d487b1f35050a20312d8b0835fe47fa62cf17dd1c169b6a5249a82c2f7"
+    },
+    {
+      "path": "figures/restored/main-selected-trajectories.pdf",
+      "sha256": "c142980ab9aa4c6130768cdb40bcbc093a3980a157578d5eedb71b57748ccd7b"
+    },
+    {
+      "path": "figures/results/genrm_evaluation/genrm_acc_by_size.png",
+      "sha256": "719370dd0726f930287a217ed838daa1f6981b115cae3a1d05515988cea2c494"
+    },
+    {
+      "path": "figures/results/openorca/proxy_vs_gold_net.png",
+      "sha256": "b86a98dda201d9e62683ce781c23d57de78b3a97c64127bed01fbde508dd3c43"
+    },
+    {
+      "path": "main.bbl",
+      "sha256": "789f1d885c3df984128b59e153961f1c8d525746c1f1fdbb8a5a79680453b479"
+    },
+    {
+      "path": "main.pdf",
+      "sha256": "43aabe39876750e05f155592eac00652b724c5692d9897537d11f5621a4cd446"
+    },
+    {
+      "path": "main.tex",
+      "sha256": "cd3f71361c3f6e084e30aa45567649ed0fc3f250305d6b734bc0d4c030f23352"
+    },
+    {
+      "path": "math_commands.tex",
+      "sha256": "90473c4d0542070db244cea73ef962d6cddc5b2a746757e6a40ddf5fdfb90ba9"
+    },
+    {
+      "path": "references.bib",
+      "sha256": "896c264ddeb4f9079040a176e5ed9f8b75d44824c6a88cbfa7743fd631c6e1f1"
+    }
+  ]
+}

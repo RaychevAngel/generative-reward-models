@@ -1,0 +1,139 @@
+{
+  "method": "retained_csv_exports_only_no_model_calls_no_new_smoothing_or_fits",
+  "gold_arena": "paper/figures/results/all_params/gold.csv for all eight matched cells and capacity sweeps",
+  "baseline_arena": "paper/figures/results/trained_vs_baseline/gold.csv; separate from all_params",
+  "own_proxy_arenas": "Each baseline own-proxy panel uses its own evaluator CSV; no cross-panel rating comparability claimed",
+  "kl_join": {
+    "key": "exact prefix plus unique Gold rating, tolerance 1e-7",
+    "joined_rows": 752,
+    "global_snapshots": 756,
+    "snapshots_without_exported_kl": [
+      "ans_1.7b_4b_470",
+      "ans_4b_0.6b_470",
+      "think_1.7b_4b_470",
+      "think_4b_0.6b_470"
+    ],
+    "negative_exported_coordinates_retained": 11,
+    "no_additional_coordinate_inference": true,
+    "joined_coordinate_export": "repro_artifacts/empirical_supplement/exported_kl_joins.csv",
+    "historical_preprocessing": "Exact preprocessing of these matched-setting exports is not fully reconstructed; they must not be assumed raw measured KL.",
+    "related_beta_provenance": "The separate beta sweep is known to use historically Savitzky-Golay-smoothed coordinates; this does not establish the exact preprocessing of the matched-setting exports.",
+    "negative_coordinates": "Retained as exported; not interpreted as negative true KL or attributed to a particular estimator."
+  },
+  "late_same_step_thinking": {
+    "step": 460,
+    "trained_gold": 501.4831661739803,
+    "baseline_gold": 542.3221457924074,
+    "interpretation": "observed crossover, not a significance result or uniformly superior baseline"
+  },
+  "inputs": [
+    {
+      "path": "paper/figures/results/all_params/gold.csv",
+      "sha256": "a04097da4f3cebf13d2442a146c2c8bf38e123898256015a37572e01f02654d3",
+      "rows": 756
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_0.6b_4b/kl_ans_vs_think_0.6b_4b.csv",
+      "sha256": "6e3a17005e65c8c797295ccc9377342259af6f4007ed2014a4d2de479f7647f1",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_1.7b_4b/kl_ans_vs_think_1.7b_4b.csv",
+      "sha256": "6234a235698977f9fd75c12fb31672c15f208c9a8662cc207768294cf8576206",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_0.6b/kl_ans_vs_think_4b_0.6b.csv",
+      "sha256": "9b5878e364e34111fcb522bcdc5780286ca65b91260fc3cb44a63dc6830ed991",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_1.7b/kl_ans_vs_think_4b_1.7b.csv",
+      "sha256": "58e7f3799daefd974b7ed02fd701aa9d9b65aaf0128e6194d0c00e65cc0f0afd",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_14b/kl_ans_vs_think_4b_14b.csv",
+      "sha256": "b24de030e55c6cc5706b168b646e2ef4277e8fdedc6b207e138ebe16b2424daf",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_4b/kl_ans_vs_think_4b_4b.csv",
+      "sha256": "7cc472a6f528905d244fa931915551c71b7a5e15f9baecace4d5d7d9f194acfe",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_4b_8b/kl_ans_vs_think_4b_8b.csv",
+      "sha256": "539c80560182bc46ff8e8c9c4efea15f5601b8c426d0e9649111561421d295d0",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/think_vs_ans_8b_4b/kl_ans_vs_think_8b_4b.csv",
+      "sha256": "052d9e7f1566d7b8b6719b347a8401c7935ab07fa1c6a91fa05dc125d6b423d8",
+      "rows": 188
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_answer.csv",
+      "sha256": "706ec1f3a2691b9797e75f2ff885f2053638e33f2ca0a0c10eb643cfa4473c3c",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_off_answer.csv",
+      "sha256": "9ef78060090d09184a4639025ff239961cc731ef3e1c9ae1b5838600e8525979",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_off_thinking.csv",
+      "sha256": "2eb2ade2d9550595c1270f17a3bc4d920c7d94b70d4e2a770cc425816df6b17c",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/4b_thinking.csv",
+      "sha256": "7df40870a0ff2e1d0320978124dd066fe9fd0dd4ff17b23f7dd3965f2f510fec",
+      "rows": 190
+    },
+    {
+      "path": "paper/figures/results/trained_vs_baseline/gold.csv",
+      "sha256": "74f56c2a9e2b60891398d3e31e9186a374afe059f5b8175aebe36d2b93ba9d71",
+      "rows": 190
+    }
+  ],
+  "outputs": [
+    {
+      "path": "arxiv/figures/restored/baseline-trajectories.pdf",
+      "sha256": "7efcc9972d80d9e08c3e30d3e13c10e7502f2342ebb1a651885bba42cef7c1d9"
+    },
+    {
+      "path": "arxiv/figures/restored/capacity-allocation.pdf",
+      "sha256": "d5cf2cb7fa9eb73db5e541364fd15f131598b00af0c0a4f69ffa33c94ad30c1e"
+    },
+    {
+      "path": "arxiv/figures/restored/gold-trajectories-a.pdf",
+      "sha256": "b359a68e6987258a8d7330a1872ae1ff529772743693d3f02cf671708bfedc7c"
+    },
+    {
+      "path": "arxiv/figures/restored/gold-trajectories-b.pdf",
+      "sha256": "0c26741e9d473c389399677213d5bd296dce289154c31df18cc354d6d7fb19bf"
+    },
+    {
+      "path": "arxiv/figures/restored/kl-trajectories-a.pdf",
+      "sha256": "c8e1e068ab4bbc8c9a4120441b922f5b0f556c7f8f5f8243cf62ad9ea1fadf44"
+    },
+    {
+      "path": "arxiv/figures/restored/kl-trajectories-b.pdf",
+      "sha256": "1062ecc0facbcafa567a58b64c8a835fc2ace8c1e13b929686e88b3e1615b243"
+    },
+    {
+      "path": "arxiv/figures/restored/main-selected-trajectories.pdf",
+      "sha256": "0202539aaa97aaa794a5572833c8e5376e863e46e3cc383f70610f7178d50c29"
+    }
+  ],
+  "limitations": [
+    "Snapshots are not independent training repetitions",
+    "No new hypothesis test, model judging or generation",
+    "Top-five summary is selected on Gold, not a held-out deployment rule",
+    "Historical KL-axis preprocessing is not fully reconstructed; exported coordinates are not assumed raw measured KL",
+    "Exported KL coordinates do not establish a calibrated OOD distance to source stories",
+    "Lines connect retained coordinates only; no missing snapshots filled"
+  ]
+}

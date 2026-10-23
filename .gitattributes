@@ -1,0 +1,12 @@
+# Preserve exact artifact bytes by default; explicit authored-text rules follow.
+* -text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.gz binary
+*.csv text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+# Preserve retained analysis-method bytes (including original line endings).
+docs/historical-source/*.py -text -whitespace

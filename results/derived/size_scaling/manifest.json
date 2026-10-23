@@ -1,0 +1,12 @@
+{
+  "source": "results/raw/all_params/gold.csv",
+  "source_sha256": "a04097da4f3cebf13d2442a146c2c8bf38e123898256015a37572e01f02654d3",
+  "model": "Y = b0 + bP ln(P) + bR ln(R) + bM M + bMP M ln(P) + bMR M ln(R)",
+  "mode_indicator": "M=1 for Thinking, 0 for Answer-Only",
+  "estimator": "numpy.linalg.lstsq, rcond=None; unweighted ordinary least squares",
+  "numpy_version": "2.5.4",
+  "configurations": 16,
+  "coefficients_per_fit": 6,
+  "interpretation": "In-sample descriptive fit on a sparse selected-checkpoint grid; no independent-seed or out-of-sample claim",
+  "kl_inputs_used": false
+}

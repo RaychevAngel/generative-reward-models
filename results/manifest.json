@@ -1,0 +1,786 @@
+{
+  "schema_version": 1,
+  "selection": "Numeric player/rating and historical KL-axis CSVs only; no prompt/story text",
+  "files": [
+    {
+      "path": "results/raw/all_params/0.6b_answer.csv",
+      "sha256": "6abda44b50a61a751935efc69c532df8a0f8c725acd76a84b49015ba397169dc",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/0.6b_thinking.csv",
+      "sha256": "0411336930ca775b1b4896118520ab199f721022df44d5387d5b6e4f4fc95300",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/1.7b_answer.csv",
+      "sha256": "7f181b0b8240ce6f59cc6a09754f7d1694319854ba0307d80f5aff76a18b24f3",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/1.7b_thinking.csv",
+      "sha256": "777c759903decd9d4858c3bba52477fb96f08ce48c8983a43dabcc53772de943",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/14b_answer.csv",
+      "sha256": "176ad977034e2a014b349e0389286ff6fff64822e1599825f5117f5d63ef2fd7",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/14b_thinking.csv",
+      "sha256": "c431e392fdf600c701d2460cb560f2e94c2d5950dc394024b1c1fd6ddf900821",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/4b_answer.csv",
+      "sha256": "6b962052732b930e089343eb487f37ee625f53c41d2217ed658cbd6e383a9c3a",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/4b_thinking.csv",
+      "sha256": "04ebae39a1a5ca7a245740db32d9dd8dfc2d168ff6f810fd576e206d9a8a4286",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/8b_answer.csv",
+      "sha256": "60cd7cb3e151520ee88059b6e9ea4a59911b4659a27416f33f439592b51600f4",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/8b_thinking.csv",
+      "sha256": "17cdaa441140c39c7231f8d25d5a835a74819874bb02ae2180d1d1058f60600e",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/all_params/gold.csv",
+      "sha256": "a04097da4f3cebf13d2442a146c2c8bf38e123898256015a37572e01f02654d3",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 756
+    },
+    {
+      "path": "results/raw/beta_coefficients/4b_answer.csv",
+      "sha256": "aea276e7db8db16043d74e49b59a8d9aed12261cdc4a8174fe3c422f47d45218",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 135
+    },
+    {
+      "path": "results/raw/beta_coefficients/gold.csv",
+      "sha256": "5332c7dce6b0f99ef4b6dd8e464cc07155436f744f0836bd4b4c680c805486c5",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 135
+    },
+    {
+      "path": "results/raw/beta_coefficients/kl_betas.csv",
+      "sha256": "1b112827e9aac5c366c3da7d4e5e83b5c3412731b7036aef09cd065ead543d3b",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 260
+    },
+    {
+      "path": "results/raw/beta_coefficients/kl_policy_sizes_think.csv",
+      "sha256": "d047dcc81e8a2fd3237234485b09a07c29b6852cd1d0238c015b008bc9a03a2d",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 208
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/0.6b_answer.csv",
+      "sha256": "76043b98950b520a2e134795e4de53d0a638dffa6925ed1a21037ff8172a3540",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/1.7b_answer.csv",
+      "sha256": "29ccb1ab66763fcda9644d1a6eb6ec16e4fc1487cc09d8edfa3dc6e4c190b4b5",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/14b_answer.csv",
+      "sha256": "7eb7951fc4bb52034607f4ea872811cba9d12dc4640a9f289b08231984acb17b",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/4b_answer.csv",
+      "sha256": "5ef7d25719a8552f22880e4855104099ff7af053abeee4ee608fd689b6a319dc",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/8b_answer.csv",
+      "sha256": "e74083a3f58adeec96680c6ae40a9596e327cc700dab1484460e5ecaa280b450",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/gold.csv",
+      "sha256": "44f58b10d871db68644f3d16a38993130de9b91f3fac055a949aa86cf09cc3d9",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_answer/kl_grm_sizes_ans.csv",
+      "sha256": "9b5878e364e34111fcb522bcdc5780286ca65b91260fc3cb44a63dc6830ed991",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/0.6b_thinking.csv",
+      "sha256": "e2bf782d912f070ec6451a41745f7775a88c3f28d7442d3a752d5809c557c2ac",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/1.7b_thinking.csv",
+      "sha256": "7771bc64d7547ff6e3f106f3fdec87aa55dddbfaf8df054b1311d5a4bcecdea6",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/14b_thinking.csv",
+      "sha256": "f3caffaca4effa2571a62b9cd455eeac1b408ef71632fe8c0b5d9422b2db613c",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/4b_thinking.csv",
+      "sha256": "ce1813f9cb17962ad5fc3c29109fb9745e760eefb8c7891ad150acd633d22e6f",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/8b_thinking.csv",
+      "sha256": "84ef60e121d1193b52ca3f90d648f3dd6e82fa932c2dec88c08da45eef238c6b",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/gold.csv",
+      "sha256": "52080011a8fd905faa7a779d50a5d022b1b6169d14d28abf315a10034e3ad8dd",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 236
+    },
+    {
+      "path": "results/raw/genrm_sizes_thinking/kl_grm_sizes_think.csv",
+      "sha256": "1e9217fa38be92cd56d2447d6033a5e041c485c1d81d4b9d95b2eff1114cf294",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 470
+    },
+    {
+      "path": "results/raw/param_balance_answer/0.6b_answer.csv",
+      "sha256": "b10cab19d2904ee13d30660d867ea5fa8b1ae5e65c80b2c0793726b91022cb3a",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_answer/1.7b_answer.csv",
+      "sha256": "888755ff1a59056bd0017e5ad30abebf34484fb25a81a5adbebc624cce2f0ce5",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_answer/4b_answer.csv",
+      "sha256": "a6d0344839516a6f3b13e273fccf359d28f135cd6706b0aea48f8c08feee78fd",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_answer/8b_answer.csv",
+      "sha256": "fbc12d9eb87c83a586c70faeae9f0452bbf77f83bbe5b4a2111d2a441b014432",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_answer/gold.csv",
+      "sha256": "bfd3345f28154f06a1bf4a76033b34deac6c05c33db66e97c18a879eca24c139",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_thinking/0.6b_thinking.csv",
+      "sha256": "2c424806fe4e57e9e8153c1f24e08c8e6ea2e08034e8b998578bbfefa81effa0",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_thinking/1.7b_thinking.csv",
+      "sha256": "4406f4bbaee803856b9892269b2fdd753f3947910f3ffa4e884ec222dab1fcb8",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_thinking/4b_thinking.csv",
+      "sha256": "c1c8bde61449e82c2300fa5f89bb62497b15552a61c8acab45eeccda9d8dfe9d",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_thinking/8b_thinking.csv",
+      "sha256": "ebf1200af159dfadb6a43f7949b2cdc427b094cc53cf0e144be25864e69b6e92",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/param_balance_thinking/gold.csv",
+      "sha256": "dbeef8915bd2e9cc91fbb26281d024f6eb8ba327cffbba1a146685d16e5bd55f",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 284
+    },
+    {
+      "path": "results/raw/policy_sizes_answer/4b_answer.csv",
+      "sha256": "f94c8f53532d8092d2ddbc671f8634ee6d1f120fc5c7cb63ba0ab2ce06c57aa2",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 189
+    },
+    {
+      "path": "results/raw/policy_sizes_answer/gold.csv",
+      "sha256": "4173fee9517d28a39f64308fa9357cb82655190b46352bda0450eb707ed6bfe9",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 189
+    },
+    {
+      "path": "results/raw/policy_sizes_answer/kl_policy_sizes_ans.csv",
+      "sha256": "4490f84438d8dbe4bcb9590daeb14b36cffdf23160deeb9244d57609d39ae3de",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 376
+    },
+    {
+      "path": "results/raw/policy_sizes_thinking/4b_thinking.csv",
+      "sha256": "7262da401e0b6f2f9c4cbc6387fcbded6bc53a3883111d163941b1c246cd5de7",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 189
+    },
+    {
+      "path": "results/raw/policy_sizes_thinking/gold.csv",
+      "sha256": "0a9172d443f52ab1ad0f3f94926f940a3a26f1c6235f764eb176bffb6d228832",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 189
+    },
+    {
+      "path": "results/raw/policy_sizes_thinking/kl_policy_sizes_think.csv",
+      "sha256": "1dea2a1979ba9c521464653babfec0b0bf14a82c0a725164003da11bf8a18ddb",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 376
+    },
+    {
+      "path": "results/raw/think_vs_ans_0.6b_4b/4b_answer.csv",
+      "sha256": "15096e303eae85c12852e9a87571dfd0d9b04f28cac09c9073785457d3d338f9",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_0.6b_4b/4b_thinking.csv",
+      "sha256": "9dbd5dd9c6f67c2ca6e6f62be572ae24f741e232ebbfbe69dccbb6ae7bab0d9f",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_0.6b_4b/gold.csv",
+      "sha256": "bd4743bfbed66c39509d3353cd3f4d4048ab9010714c1177a22fdac4f28c0f7a",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_0.6b_4b/kl_ans_vs_think_0.6b_4b.csv",
+      "sha256": "6e3a17005e65c8c797295ccc9377342259af6f4007ed2014a4d2de479f7647f1",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_1.7b_4b/4b_answer.csv",
+      "sha256": "2f9da624a898d78c402a364a633357a754a4fba2470ff34f08f2ab31f654aa9b",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 96
+    },
+    {
+      "path": "results/raw/think_vs_ans_1.7b_4b/4b_thinking.csv",
+      "sha256": "12f80c43654e4433fdfd6d9e1260d08aad003e5b72685d9d846d2365063784d6",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 96
+    },
+    {
+      "path": "results/raw/think_vs_ans_1.7b_4b/gold.csv",
+      "sha256": "c4b0dccacc09f08e10e02df934f158ed2eebea1b28a0154b2c7b3b93870ed7a2",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 96
+    },
+    {
+      "path": "results/raw/think_vs_ans_1.7b_4b/kl_ans_vs_think_1.7b_4b.csv",
+      "sha256": "6234a235698977f9fd75c12fb31672c15f208c9a8662cc207768294cf8576206",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_0.6b/0.6b_answer.csv",
+      "sha256": "97f5fb76444946049727c9c93fddcb19aa90fd4054f7eb0581a75778d52d6860",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 96
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_0.6b/0.6b_thinking.csv",
+      "sha256": "8103954f16643ae5f0a6e8c699ff1b469b731eb5ad5f525fb60f83668b5204ff",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 96
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_0.6b/gold.csv",
+      "sha256": "ae9da2a173771266619b6472ff3ee8727069ed394a9a438732de1062806e487f",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 96
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_0.6b/kl_ans_vs_think_4b_0.6b.csv",
+      "sha256": "9b5878e364e34111fcb522bcdc5780286ca65b91260fc3cb44a63dc6830ed991",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_1.7b/1.7b_answer.csv",
+      "sha256": "7b7591ae76c1696f482ebe3014e8c0bc1b7e29b2e9e95974ed3865ef9ec8ed23",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_1.7b/1.7b_thinking.csv",
+      "sha256": "0030deffd06414f90dc09f7ea9a45021a4a4b874186af29f524c9a50dbaf908f",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_1.7b/gold.csv",
+      "sha256": "6f51f20391abb4b8893618b774ad2b5035f8d5d6b2b1a13d71a786cc35702f56",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_1.7b/kl_ans_vs_think_4b_1.7b.csv",
+      "sha256": "58e7f3799daefd974b7ed02fd701aa9d9b65aaf0128e6194d0c00e65cc0f0afd",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_14b/14b_answer.csv",
+      "sha256": "90720a5565b113bfd836b51b3340ef56a75b503e272fd2ed239181534ec0f935",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_14b/14b_thinking.csv",
+      "sha256": "2e2727479e6f404a60a2fcdde55f1683d0a9359aaf49ae3faf00a3db412ce1d8",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_14b/gold.csv",
+      "sha256": "fd54782ee2df9e4fec638af703ac5b824d7274f9ff5efacfc705d36be36404cc",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_14b/kl_ans_vs_think_4b_14b.csv",
+      "sha256": "b24de030e55c6cc5706b168b646e2ef4277e8fdedc6b207e138ebe16b2424daf",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_4b/4b_answer.csv",
+      "sha256": "d1563cb232fa8afaf548889ea8d0453f195930013f6863ab6e9caf16f547a887",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_4b/4b_thinking.csv",
+      "sha256": "2a5f369e97d68819e5fd7edbd572967d22fc331768473a312ef5912d65458603",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_4b/gold.csv",
+      "sha256": "2d2ac224b505b6fd102cd2e34e9e3790cef5e6620d46656fac345b2cbad0f7bb",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_4b/kl_ans_vs_think_4b_4b.csv",
+      "sha256": "7cc472a6f528905d244fa931915551c71b7a5e15f9baecace4d5d7d9f194acfe",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_8b/8b_answer.csv",
+      "sha256": "c7bc6a8f1cb8d935072c385684f22d0362159a0c98c05826f4d1f25411d01949",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_8b/8b_thinking.csv",
+      "sha256": "539fc441364477eb58a4f7dfe65dde318f7ff99f76783a9f6e4f835131cc4b27",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_8b/gold.csv",
+      "sha256": "19ec32d57a70cd500a49949522a31eda493f39adf73ce651433d844257c5716d",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_4b_8b/kl_ans_vs_think_4b_8b.csv",
+      "sha256": "539c80560182bc46ff8e8c9c4efea15f5601b8c426d0e9649111561421d295d0",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/think_vs_ans_8b_4b/4b_answer.csv",
+      "sha256": "4d417bc5e3d8a9b6e2f84edd9a8a0f6bfd4fc2e43a0066870e067845a1b0c7f7",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_8b_4b/4b_thinking.csv",
+      "sha256": "335813405e89aa53bd4c322fb72184757f0396534b3f56c0f4f9e344974e39ac",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_8b_4b/gold.csv",
+      "sha256": "37bcca96627d3bc48a456410d88cb69292c7aa8f5a934cc5e9e3e5cd8b5a42ab",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 94
+    },
+    {
+      "path": "results/raw/think_vs_ans_8b_4b/kl_ans_vs_think_8b_4b.csv",
+      "sha256": "052d9e7f1566d7b8b6719b347a8401c7935ab07fa1c6a91fa05dc125d6b423d8",
+      "columns": [
+        "kl",
+        "rating",
+        "source",
+        "label",
+        "prefix"
+      ],
+      "rows": 188
+    },
+    {
+      "path": "results/raw/trained_vs_baseline/4b_answer.csv",
+      "sha256": "706ec1f3a2691b9797e75f2ff885f2053638e33f2ca0a0c10eb643cfa4473c3c",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 190
+    },
+    {
+      "path": "results/raw/trained_vs_baseline/4b_off_answer.csv",
+      "sha256": "9ef78060090d09184a4639025ff239961cc731ef3e1c9ae1b5838600e8525979",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 190
+    },
+    {
+      "path": "results/raw/trained_vs_baseline/4b_off_thinking.csv",
+      "sha256": "2eb2ade2d9550595c1270f17a3bc4d920c7d94b70d4e2a770cc425816df6b17c",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 190
+    },
+    {
+      "path": "results/raw/trained_vs_baseline/4b_thinking.csv",
+      "sha256": "7df40870a0ff2e1d0320978124dd066fe9fd0dd4ff17b23f7dd3965f2f510fec",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 190
+    },
+    {
+      "path": "results/raw/trained_vs_baseline/gold.csv",
+      "sha256": "74f56c2a9e2b60891398d3e31e9186a374afe059f5b8175aebe36d2b93ba9d71",
+      "columns": [
+        "player",
+        "rating"
+      ],
+      "rows": 190
+    }
+  ]
+}
