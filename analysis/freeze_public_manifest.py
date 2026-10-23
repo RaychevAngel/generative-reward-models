@@ -38,7 +38,7 @@ def main():
                             'bytes': path.stat().st_size})
     if not records:
         raise SystemExit('Stage the reviewed public files before creating their manifest.')
-    payload = {'release': 'v2026.10.23-analysis',
+    payload = {'release': 'v2026.10.23-analysis.1',
                'scope': 'public research artifacts and CPU analysis',
                'excludes': ['private training source and recipes', 'weights', 'raw stories',
                             'credentials', 'private correspondence', 'prior training-source Git history'],

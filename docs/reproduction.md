@@ -51,6 +51,10 @@ Some KL-axis inputs were already processed by the historical producer; see
 the [provenance qualification](../results/README.md). Reproduction preserves
 those values and does not certify them as unsmoothed nonnegative divergences.
 
+Generated baseline own-proxy axes round outward to include every retained
+observation, including negative initial ratings. These freshly generated plots
+do not overwrite the manuscript's frozen figure assets or distributed PDF.
+
 `summarize_results.py` prints the eight matched cells' observed peak/top-five
 statistics from the common Gold arena. It reproduces a descriptive summary,
 not a new statistical test. `verify_release.py` checks released numerical

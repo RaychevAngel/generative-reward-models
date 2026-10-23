@@ -215,11 +215,11 @@ def baseline_figure(path, result_root):
         high = max(v for _, v in values)
         delta = 500 if high > 1500 else 250
         top = math.ceil(high / delta) * delta
-        bottom = -100 if low < 0 else 0
+        bottom = math.floor(low / delta) * delta
         chart(c, ((index % 2) * 234, (1 - index // 2) * 108, 230, 106),
               f"({chr(98 + index)}) Own proxy: {name}", [series(values, color, dashed)],
               (0, 480), (bottom, top + delta * .12), [0, 200, 400],
-              list(range(0, top + 1, delta)), ylabel="Own-proxy Elo")
+              list(range(bottom, top + 1, delta)), ylabel="Own-proxy Elo")
     c.save()
     return gold
 
@@ -314,8 +314,8 @@ def main():
                         for step, _ in trajectory(global_gold, f"{mode}_{policy}_{judge}")}
     manifest = {
         "method": "retained_csv_exports_only_no_model_calls_no_new_smoothing_or_fits",
-        "gold_arena": "paper/figures/results/all_params/gold.csv for all eight matched cells and capacity sweeps",
-        "baseline_arena": "paper/figures/results/trained_vs_baseline/gold.csv; separate from all_params",
+        "gold_arena": str((source / "all_params/gold.csv").relative_to(root)) + " for all eight matched cells and capacity sweeps",
+        "baseline_arena": str((source / "trained_vs_baseline/gold.csv").relative_to(root)) + "; separate from all_params",
         "own_proxy_arenas": "Each baseline own-proxy panel uses its own evaluator CSV; no cross-panel rating comparability claimed",
         "kl_join": {"key": "exact prefix plus unique Gold rating, tolerance 1e-7", "joined_rows": len(joins),
                     "global_snapshots": len(expected_players),

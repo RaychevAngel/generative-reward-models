@@ -1,5 +1,5 @@
 {
-  "release": "v2026.10.23-analysis",
+  "release": "v2026.10.23-analysis.1",
   "scope": "public research artifacts and CPU analysis",
   "excludes": [
     "private training source and recipes",
@@ -58,8 +58,8 @@
     },
     {
       "path": "analysis/build_empirical_supplement.py",
-      "sha256": "25ce7465fc6e863a710e6cd8d20929009e1fb9a5611317e55ebf2f5cd37732db",
-      "bytes": 16978
+      "sha256": "001db7dec9138d2dc6d432218bb47186045fbf3dffd959f54e98e4451df35037",
+      "bytes": 17026
     },
     {
       "path": "analysis/build_main_figures.py",
@@ -83,8 +83,8 @@
     },
     {
       "path": "analysis/freeze_public_manifest.py",
-      "sha256": "d900de194afc65486e6c137531d1a68c0129bcdb1363edff141aa2d005118d90",
-      "bytes": 2594
+      "sha256": "7dfd1c684e56932eed1f80ee0a23be2904d984ea3c3ed5878e7b4441ee4cc547",
+      "bytes": 2596
     },
     {
       "path": "analysis/reproduce.py",
@@ -158,8 +158,8 @@
     },
     {
       "path": "docs/reproduction.md",
-      "sha256": "6c4ec172bb8fa9b593ca5990b49e21960b4d91b5d600a3f0d872bf3c8616696a",
-      "bytes": 5568
+      "sha256": "ff409c0d9e6cbd89bafa3e596c7cebfe91bcb24c96d9d788ad4235ca99dd9c85",
+      "bytes": 5797
     },
     {
       "path": "docs/verification.md",
@@ -838,8 +838,8 @@
     },
     {
       "path": "tests/test_reproduction_output.py",
-      "sha256": "72ca68c4eadb7602993ae59a4e61496fa7bcef53c60ca2586832d0468cd2fe1c",
-      "bytes": 1405
+      "sha256": "7fce81f0aa2255166eb5475cf915ce24a2da66da6145d9a5e8ec1de865e96730",
+      "bytes": 2496
     },
     {
       "path": "tests/test_retained_receipts.py",
